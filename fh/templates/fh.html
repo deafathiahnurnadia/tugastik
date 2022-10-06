@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <center>
+        <h2 style="background-color:whitesmoke;">FAKULTAS HUKUM</h2>
+    </center>
+
+    <p></p>
+    <center>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf6S0hTYnzW2tIQ_4qxXOBMcELoOJhVrCdHz29tfo7GqdWWN15QBJJVxbH3VRuiYLda8Q&usqp=CAU" alt="Gambar FH" width="500px">>
+    </center>
+
+    <p></p>
+    <h3 style="background-color:rgba(23, 91, 108, 0.831);">Sejarah</h3>
+    <p style="font-family: 'times new roman'">{{ gbrumum }}</p>
+   
+    <h3 style="background-color:rgba(23, 91, 108, 0.831);">Program Studi</h3>
+    <p style="font-family: 'times new roman'">{{ prodi }}</p>
+    
+{% endblock %}
